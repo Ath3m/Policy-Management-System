@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css file link  -->
+
+    <link rel="stylesheet" href="paymentstyle.css">
+    <!-- <script defer src="script.js"></script> -->
+    <script type="text/javascript">
+        function preback(){window.history.forward();}
+        setTimeout("preback()",0);
+        window.onunload=function(){null}
+
+    </script>
+
+
+</head>
+<body>
+
+<div class="container">
+    <form action="payment.py" method="post">
+        <div class="row">
+            <div class="col">
+                <h3 class="title">Policy Details</h3>
+                <div class="inputBox">
+                    <span>Policy Number :</span>
+                    <input type="text" placeholder="#######" name="policynumber" required maxlength="7" >
+                </div>
+                <div class="inputBox">
+                    <span>Full Name :</span>
+                    <input type="text" placeholder="Full Name" name="fullname" required>
+                </div>
+                <div class="inputBox">
+                    <span>Email :</span>
+                    <input type="email" placeholder="email@email.com" name="email" required>
+                </div>
+                <div class="inputBox">
+                    <span>Address :</span>
+                    <input type="text" placeholder="Address number and Municipality" name="address" required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Province/City :</span>
+                        <input type="text" placeholder="Province or City" name="provinecity" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>zip code :</span>
+                        <input type="text" placeholder="0000" name="zipcode" required>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">payment</h3>
+
+                <div class="inputBox">
+                    <span>cards accepted :</span>
+                    <img src="images/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Name on card :</span>
+                    <input type="text" placeholder=" Last Name FIrst Name" name="Nameoncard" required >
+                </div>
+                <div class="inputBox">
+                    <span>credit card number :</span>
+                    <input type="number" placeholder="0000-0000-0000-0000" name="cardnumber" required>
+                </div>
+                <div class="inputBox">
+                    <span>exp month :</span>
+                    <input type="text" placeholder="january" name="expirationmonth" required >
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>exp year :</span>
+                        <input type="number" placeholder="YYYY" name="expirationyear" required >
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="password" placeholder="000" name="cvv" required>
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="proceed to checkout" class="submit-btn" >
+
+    </form>
+
+</div>    
+    
+</body>
+</html>

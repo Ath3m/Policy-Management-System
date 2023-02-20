@@ -1,0 +1,52 @@
+**PLEASE NOTE**
+-Since the system is capable to create the main database <Practicedb> you only need to set up 
+the db_counter. this database guides our system 
+if it still need to set up the database of not.
+
+
+if counter=False:
+createdb()
+
+else:
+print("Policy is already created!")
+
+
+## Query to Set up database and Table ##
+
+create database db_counter;
+create table tbl_db_counter(
+counter varchar(10)
+)
+
+
+### Query to insert value of counter = False ##
+
+insert into tbl_db_counter (counter) values('False')
+
+
+----------------------------------------
+
+** PLEASE KEEP IN MIND ** 
+-Since the target user of the system is employees
+we might insert the employee informations before they can register they account we can set up their EMP_ID,EMP_NUM,firstname and lastname
+
+
+## Query to insert sample employee ##
+
+insert into tbl_employee (EMP_ID,EMP_NUM,firstname,lastname) Values(1,'87654321','Mark','Guzman')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

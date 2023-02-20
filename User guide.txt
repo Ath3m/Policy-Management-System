@@ -1,0 +1,41 @@
+** Initial Set up**
+## Kindly Clone the repository to you Desktop
+note: please maintain filename as <mainprojectbackup2> because some of the system feature such us Generate document file directory is set up to this folder.
+
+
+
+
+
+**SET UP PAYMENT INTEGRATION OF SYSTEM**
+-Since Payment integration of this project is only works inside the MySql local server
+
+## COPY THE FOLLOWING FILES TO XAMMP htdocs file
+
+payment.py
+payment.html
+paymentstyle.css 
+
+
+
+**About the system**
+-Policy coverage registration limit is set up to
+<300000.
+
+-Policy Insured and Policy Beneficiary cannot be the-same person.
+
+-In Beneficiary relationhip Husband and Wife can only be choose once. 
+
+-System can process application,sending payment links to client.
+
+NOTE: In Policy owner registration kindly input legit email since this email will be the receipt of the One Time Payment Link.
+
+
+
+ 
+
+
+
+
+
+
+
