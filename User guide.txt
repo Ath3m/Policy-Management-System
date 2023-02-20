@@ -5,7 +5,6 @@ note: please maintain filename as <mainprojectbackup2> because some of the syste
 
 
 
-
 **SET UP PAYMENT INTEGRATION OF SYSTEM**
 -Since Payment integration of this project is only works inside the MySql local server
 
@@ -30,10 +29,17 @@ paymentstyle.css
 NOTE: In Policy owner registration kindly input legit email since this email will be the receipt of the One Time Payment Link.
 
 
+***For detailed Demonstration***
+Kindly search this link:
+
+https://youtu.be/eRrqttA3ohU
+
+
 
  
 
-
+**** I am a begginer who wants to learn code
+and comments and suggestions are welcome*** 
 
 
 
